@@ -8,7 +8,7 @@
 Plug in your RTL-SDR dongle then run:
 
 ```bash
-git clone https://github.com/linuxluser/docker-gqrx.git
+git clone https://github.com/Pooky-s/do-gqrx.git
 cd docker-gqrx
 sh run.sh
 ```
