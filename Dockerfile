@@ -1,4 +1,4 @@
-FROM debian:testing
+FROM debian:latest
 
 
 # Supporting packages
@@ -18,7 +18,12 @@ RUN apt-get update && \
                        qtdeclarative5-dev \
                        libpulse-dev \
                        libqt5svg5-dev \
-                       gr-osmosdr
+                       gr-osmosdr \
+                       libasound2-dev \
+                       libjack-dev \
+                       libasound-dev \
+                       libportaudio2 \
+                       portaudio19-dev
 
 
 # Clone gqrx source
